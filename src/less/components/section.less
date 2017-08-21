@@ -1,0 +1,32 @@
+.section{
+  padding-left: 10rem;
+  color: white;
+  font-size: 10rem;
+
+  &__title{
+    font-size: 4rem;
+    color: @white;
+    font-weight: bold;
+    margin-bottom: 4rem;
+  }
+
+  &__description{
+    font-size: 1.5rem;
+    color: @white;
+    font-weight: normal;
+    max-width: 46%;
+  }
+  &__bg{
+    background-image: url(../img/bg-first.png);
+    background-position: right center;
+    background-size: contain;
+    width: 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    z-index: -1;
+    filter: grayscale(50%);
+  }
+}
