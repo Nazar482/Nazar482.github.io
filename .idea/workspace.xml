@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09d1cd46-3ffa-441b-9a4f-78dd596372ec" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/app/app.js" afterPath="$PROJECT_DIR$/src/js/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/base/base.less" afterPath="$PROJECT_DIR$/src/less/base/base.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/base/variables.less" afterPath="$PROJECT_DIR$/src/less/base/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/button.less" afterPath="$PROJECT_DIR$/src/less/components/button.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/form.less" afterPath="$PROJECT_DIR$/src/less/components/form.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/fullpage.less" afterPath="$PROJECT_DIR$/src/less/components/fullpage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/icon.less" afterPath="$PROJECT_DIR$/src/less/components/icon.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/loader.less" afterPath="$PROJECT_DIR$/src/less/components/loader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/nav.less" afterPath="$PROJECT_DIR$/src/less/components/nav.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/components/section.less" afterPath="$PROJECT_DIR$/src/less/components/section.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/main.less" afterPath="$PROJECT_DIR$/src/less/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/partials/header.less" afterPath="$PROJECT_DIR$/src/less/partials/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/plugins/ubtfont.css" afterPath="$PROJECT_DIR$/src/less/plugins/ubtfont.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/index.html" afterPath="$PROJECT_DIR$/src/templates/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/less/components/section.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -361,12 +348,12 @@
       <workItem from="1503359761568" duration="58000" />
       <workItem from="1503379861813" duration="8248000" />
       <workItem from="1503406805032" duration="1748000" />
-      <workItem from="1503476425972" duration="4844000" />
+      <workItem from="1503476425972" duration="5330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38093000" />
+    <option name="totallyTimeSpent" value="38579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1176" extended-state="0" />
@@ -772,7 +759,7 @@
     <entry file="file://$PROJECT_DIR$/src/less/components/section.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
