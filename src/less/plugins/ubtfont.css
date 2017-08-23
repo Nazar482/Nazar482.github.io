@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'ubtfont';
-  src: url('../font/ubtfont.eot?64734805');
-  src: url('../font/ubtfont.eot?64734805#iefix') format('embedded-opentype'),
-       url('../font/ubtfont.woff2?64734805') format('woff2'),
-       url('../font/ubtfont.woff?64734805') format('woff'),
-       url('../font/ubtfont.ttf?64734805') format('truetype'),
-       url('../font/ubtfont.svg?64734805#ubtfont') format('svg');
+  src: url('../fonts/ubtfont.eot?64734805');
+  src: url('../fonts/ubtfont.eot?64734805#iefix') format('embedded-opentype'),
+       url('../fonts/ubtfont.woff2?64734805') format('woff2'),
+       url('../fontsubtfont.woff?64734805') format('woff'),
+       url('../fonts/ubtfont.ttf?64734805') format('truetype'),
+       url('../fonts/ubtfont.svg?64734805#ubtfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,0 +1,36 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__row{
+    display: flex;
+    flex-direction: row;
+  }
+  &__group{
+    width: calc(50% - 6rem);
+    margin-bottom: 4rem;
+    &:first-child{
+      margin-right: 12rem;
+    }
+  }
+  &__input{
+    width: 100%;
+    margin: 0;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: @white;
+    outline: 0;
+    color: @white;
+    font-size: 1.5rem;
+    background: none;
+    font-family: @U-light;
+    padding: 1.4rem 0;
+    &::placeholder{
+      color: @white;
+    }
+  }
+  &__button{
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,41 @@
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  transition: all 500ms ease;
+
+  &__link{
+    font-size: 1.2rem;
+    color: @white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 5rem;
+    font-weight: 500;
+    font-family: @U-mono-bold;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    &:hover{
+      color: @hover-color;
+    }
+  }
+  &__link_share{
+    border: none;
+    background: none;
+    outline: 0;
+  }
+  &__share{
+    margin-left: auto;
+    align-self: center;
+    &:hover{
+      color: @hover-color;
+    }
+  }
+}
+.nav__link.active{
+  border-bottom: 2px solid @white;
+  &:hover{
+    color: @hover-color;
+    border-color: @hover-color;
+  }
+}
