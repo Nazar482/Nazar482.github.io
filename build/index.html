@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="loader">
+        <img src="img/logo.png" alt="">
+    </div>
     <div class="wrapper">
         <header class="header">
             <div class="header__in">
                 <div class="header__navbar">
                     <div class="header__logo"><img src="img/logo.png" alt=""></div>
                     <nav class="nav menu">
-                        <a href="#firstPage" class="nav__link active" data-menuanchor="firstPage">about</a>
-                        <a href="#secondPage" class="nav__link" data-menuanchor="secondPage">services</a>
-                        <a href="#thirdPage" class="nav__link" data-menuanchor="thirdPage">tech</a>
-                        <a href="#fourthPage" class="nav__link" data-menuanchor="fourthPage">works</a>
-                        <a href="#fifthPage" class="nav__link" data-menuanchor="fifthPage">contacts</a>
+                        <a href="#about" class="nav__link active" data-menuanchor="about">about</a>
+                        <a href="#services" class="nav__link" data-menuanchor="services">services</a>
+                        <a href="#tech" class="nav__link" data-menuanchor="tech">tech</a>
+                        <a href="#works" class="nav__link" data-menuanchor="works">works</a>
+                        <a href="#contacts" class="nav__link" data-menuanchor="contacts">contacts</a>
                         <div class="nav__share">
-                            <a href="" class="nav__link nav__link_share">Share</a>
+                            <button class="nav__link nav__link_share"><i class="icon-share"></i></button>
                             <div class="share-block">
 
                             </div>
@@ -29,8 +33,8 @@
         </header>
         <main class="main">
             <div class="section-block" id="fullpage">
-                <div class="section active" >
-                    <div class="section__bg"></div>
+                <div class="section section-first active" >
+                    <div class="section__bg" id="first-section"></div>
                     <div class="section__content">
                         <h1 class="section__title">United Business Technologies.<br>
                             Internet products and mobile apps development.
@@ -40,36 +44,110 @@
                         <p class="section__description">The Team of professionals with solid tech background helps rich business goals and realise opportunities.</p>
                     </div>
                 </div>
-                <div class="section" >
-                    <h1 class="section__title">Create good and developer to the best<br>
+                <div class="section section-second" >
+                    <h1 class="section__title section__title_big section__title_centered">Create good and developer to the best<br>
                     </h1>
-                    <p class="section__description">Modern Web and Mobile Development with strong focus on results.
-                    </p>
-                    <p class="section__description">The Team of professionals with solid tech background helps rich business goals and realise opportunities.</p>
+                   <div class="section__info">
+                       <div class="section__info-block">
+                           <i class="icon-dev"></i>
+                           <h5 class="section__info-block-title">Web, Desktop and Mobile Development</h5>
+                       </div>
+                       <div class="section__info-block">
+                           <i class="icon-design"></i>
+                           <h5 class="section__info-block-title">Graphic and UX/UI Design</h5>
+                       </div>
+                       <div class="section__info-block">
+                           <i class="icon-hr"></i>
+                           <h5 class="section__info-block-title">IT Recruitment & Staffing Services, Offshore</h5>
+                       </div>
+                       <div class="section__info-block">
+                           <i class="icon-support"></i>
+                           <h5 class="section__info-block-title">Support and Consulting Growth Hacking</h5>
+                       </div>
+                   </div>
                 </div>
-                <div class="section" >
-                    <h1 class="section__title">Build. Scale. Profit.<br>
-                        Internet products and mobile apps development.
+                <div class="section section-third" >
+                    <h1 class="section__title section__title_big">Build. Scale. Profit.<br>
                     </h1>
-                    <p class="section__description">Modern Web and Mobile Development with strong focus on results.
-                    </p>
-                    <p class="section__description">The Team of professionals with solid tech background helps rich business goals and realise opportunities.</p>
+                    <div class="section__info">
+                        <div class="section__info-block">
+                            <i class="icon-stack"></i>
+                            <h5 class="section__info-block-title">Stack</h5>
+                            <p class="section__info-description">React/React Native,<br>
+                                NodeJS, JS, PHP
+                            </p>
+                        </div>
+                        <div class="section__info-block">
+                            <i class="icon-database"></i>
+                            <h5 class="section__info-block-title">Database</h5>
+                            <p class="section__info-description">
+                                mongoDB, MySQL, Redis,
+                                rethinkDB
+                            </p>
+                        </div>
+                        <div class="section__info-block">
+                            <i class="icon-apps"></i>
+                            <h5 class="section__info-block-title">Desktop and Mobile Apps</h5>
+                            <p class="section__info-description">
+                                Electron (MacOS, Windows),
+                                React Native (iOS, Android, Windows)
+                            </p>
+                        </div>
+                        <div class="section__info-block">
+                            <i class="icon-agile"></i>
+                            <h5 class="section__info-block-title">Agile Development</h5>
+                            <p class="section__info-description">Agile ready team</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="section" >
-                    <h1 class="section__title">United Business Technologies.4444444444444<br>
-                        Internet products and mobile apps development.
+                <div class="section section-fourth" >
+                    <h1 class="section__title section__title_big">
+                        What we do
                     </h1>
-                    <p class="section__description">Modern Web and Mobile Development with strong focus on results.
+                    <p class="section__description">
+                        United Business Technology creates thoughtful and convenient<br>
+                        interface solutions in Web Projects, Desktop and Mobile Applications.<br>
+                        Each of our projects is a unique product that solves not only the business<br>
+                        matters of the client, but the technological component.
                     </p>
-                    <p class="section__description">The Team of professionals with solid tech background helps rich business goals and realise opportunities.</p>
+                    <button class="button">
+                        <span class="button__span">view the gallery</span>
+                        <i class="icon-arrow"></i>
+                    </button>
                 </div>
-                <div class="section" >
-                    <h1 class="section__title">United Business Technologies.555555555555<br>
-                        Internet products and mobile apps development.
+                <div class="section section-fifth" >
+                    <h1 class="section__title section__title_big">
+                        Get in Touch
                     </h1>
-                    <p class="section__description">Modern Web and Mobile Development with strong focus on results.
-                    </p>
-                    <p class="section__description">The Team of professionals with solid tech background helps rich business goals and realise opportunities.</p>
+                    <form action="" class="form">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Name">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Message">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Email">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Phone">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="button form__button">
+                            <span class="button__span">Send</span>
+                            <i class="icon-arrow"></i></div>
+                    </form>
                 </div>
             </div>
         </main>
