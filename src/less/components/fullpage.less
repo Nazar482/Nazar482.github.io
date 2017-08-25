@@ -3,20 +3,31 @@
   position: absolute;
   top: 50%;
   @media(max-width: 900px){
-    bottom: 0;
-    z-index: 9999;
+    bottom: 1rem;
+    z-index: 1001;
     top: inherit;
   }
 }
 #fp-nav.left {
   left: 10px;
+  @media(max-width: 900px){
+    left: 0;
+  }
 }
 #fp-nav ul li{
   margin-bottom: 18px;
+  @media(max-width: 900px){
+    margin-bottom: 4px;
+    height: 6px;
+  }
 }
 #fp-nav ul li a span{
   width: 8px;
   height: 8px;
+  @media(max-width: 900px){
+    width: 6px;
+    height: 6px;
+  }
 }
 #fp-nav ul li a.active span{
   height: 12px;
@@ -24,6 +35,11 @@
   margin: -6px 0px 0 -4px;
   border-radius: 100%;
   background: white;
+  @media(max-width: 900px){
+    width: 6px;
+    height: 6px;
+    margin: -2px 0 0 -2px;
+  }
 }
 #fp-nav ul li:hover a span{
   height: 12px;
@@ -31,10 +47,20 @@
   margin: -6px 0px 0 -4px;
   border-radius: 100%;
   background: @hover-color;
+  @media(max-width: 900px){
+    width: 6px;
+    height: 6px;
+    margin: -2px 0 0 -2px;
+  }
 }
 #fp-nav ul li:hover a.active span{
   margin: -6px 0px 0 -4px;
   background: @hover-color;
+  @media(max-width: 900px){
+    width: 6px;
+    height: 6px;
+    margin: -2px 0 0 -2px;
+  }
 }
 
 

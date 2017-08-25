@@ -15,7 +15,10 @@
   @media(max-width: 900px){
     padding: 0 2rem;
   }
-
+  @media only screen and (max-width: 640px) and (orientation : portrait) {
+    background-position: center center;
+    background-size: 60%;
+  }
   &__title{
     font-size: 4rem;
     color: @white;
@@ -68,11 +71,6 @@
   }
   &-fourth{
     background-image: url(../img/bg-fourth.png);
-    .button{
-       @media (max-width: 900px){
-         display: none;
-       }
-    }
   }
   &-fifth{
     background-image: url(../img/bg-fifth.png);
@@ -92,7 +90,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       justify-content: flex-start;
       &:nth-child(2n+2){
         justify-content: flex-end;

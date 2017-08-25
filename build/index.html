@@ -19,20 +19,23 @@
                 <div class="header__navbar">
                     <div class="header__logo"><img src="img/logo.png" alt=""></div>
                     <nav class="nav menu">
-                        <a href="#about" class="nav__link active" data-menuanchor="about">about</a>
-                        <a href="#services" class="nav__link" data-menuanchor="services">services</a>
-                        <a href="#tech" class="nav__link" data-menuanchor="tech">tech</a>
-                        <a href="#works" class="nav__link" data-menuanchor="works">works</a>
-                        <a href="#contacts" class="nav__link" data-menuanchor="contacts">contacts</a>
-                        <div class="nav__share">
-                            <div class="share-block hide">
-                                <a href="" class="nav__link"><i class="icon-facebook"></i></a>
-                                <a href="" class="nav__link"><i class="icon-twitter"></i></a>
+                        <div class="nav__in mobile-menu">
+                            <i class="close-menu icon-close-black"></i>
+                            <a href="#about" class="nav__link active" data-menuanchor="about">about</a>
+                            <a href="#services" class="nav__link" data-menuanchor="services">services</a>
+                            <a href="#tech" class="nav__link" data-menuanchor="tech">tech</a>
+                            <a href="#works" class="nav__link" data-menuanchor="works">works</a>
+                            <a href="#contacts" class="nav__link" data-menuanchor="contacts">contacts</a>
+                            <div class="nav__share">
+                                <div class="share-block hide">
+                                    <a href="" class="nav__link"><i class="icon-facebook"></i></a>
+                                    <a href="" class="nav__link"><i class="icon-twitter"></i></a>
+                                </div>
+                                <button class="nav__link nav__link_share share-button"><i class="icon-share"></i></button>
                             </div>
-                            <button class="nav__link nav__link_share share-button"><i class="icon-share"></i></button>
                         </div>
                     </nav>
-                    <button class="nav__toggle-button">toggle</button>
+                    <i class="nav__toggle-button menu-toggle"></i>
                 </div>
             </div>
         </header>
@@ -124,7 +127,7 @@
                         matters of the client, but the technological component.
                     </p>
                     <button class="button">
-                        <span class="button__span">view the gallery</span>
+                        <span class="button__span view-gallery">view the gallery</span>
                         <i class="icon-arrow"></i>
                     </button>
                 </div>
@@ -174,8 +177,32 @@
                     <span class="footer__separator">|</span>
                     <a href="" class="footer__link">agb</a>
                 </div>
+                <div class="nav__share footer__share">
+                    <div class="share-block hide">
+                        <a href="" class="nav__link"><i class="icon-facebook"></i></a>
+                        <a href="" class="nav__link"><i class="icon-twitter"></i></a>
+                    </div>
+                    <button class="nav__link nav__link_share share-button footer__share-button"><i class="icon-share"></i></button>
+                </div>
             </div>
         </footer>
+        <div class="modal">
+            <i class="icon-big-close close-modal"></i>
+            <div class="gallery">
+                <div class="gallery__image">
+                    <img class="" src="img/slide-1.jpg">
+                </div>
+                <div class="gallery__image">
+                    <img class="g" src="img/slide-1.jpg">
+                </div>
+                <div class="gallery__image">
+                    <img class="" src="img/slide-1.jpg">
+                </div>
+                <div class="gallery__image">
+                    <img class="ge" src="img/slide-1.jpg">
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/main.js"></script>
 </body>
