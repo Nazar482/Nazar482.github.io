@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    $(".wrapper").hide();
+    $(".loader").css("zoom","150%").fadeOut(5000, function() {
+        $(".wrapper").fadeIn(1000);
+    });
+
     $('.gallery').slick({
         dots: false,
         infinite: true,
@@ -20,11 +25,6 @@ $(document).ready(function() {
         css3: true,
         scrollingSpeed: 500,
         fitToSection: false
-    });
-
-    $(".wrapper").fadeOut();
-    $(".loader").css("zoom","150%").fadeOut(5000, function() {
-        $(".wrapper").fadeIn(1000);
     });
 
     $(".share-button").click(function(){
