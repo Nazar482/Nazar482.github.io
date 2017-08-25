@@ -11,11 +11,18 @@ $(document).ready(function() {
         fadingEffect: true,
         verticalCentered: true,
         css3: true,
-        scrollingSpeed: 500
+        scrollingSpeed: 500,
+        fitToSection: false
     });
     $(".wrapper").fadeOut();
     $(".loader").css("zoom","150%").fadeOut(5000, function() {
         $(".wrapper").fadeIn(1000);
     });
+
+    $(".share-button").click(function(){
+       $(".share-block").toggleClass("hide");
+       $(".share-button").children("i").toggleClass("icon-share icon-close");
+    });
+
 
 });

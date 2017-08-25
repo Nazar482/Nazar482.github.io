@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -22,12 +25,14 @@
                         <a href="#works" class="nav__link" data-menuanchor="works">works</a>
                         <a href="#contacts" class="nav__link" data-menuanchor="contacts">contacts</a>
                         <div class="nav__share">
-                            <button class="nav__link nav__link_share"><i class="icon-share"></i></button>
-                            <div class="share-block">
-
+                            <div class="share-block hide">
+                                <a href="" class="nav__link"><i class="icon-facebook"></i></a>
+                                <a href="" class="nav__link"><i class="icon-twitter"></i></a>
                             </div>
+                            <button class="nav__link nav__link_share share-button"><i class="icon-share"></i></button>
                         </div>
                     </nav>
+                    <button class="nav__toggle-button">toggle</button>
                 </div>
             </div>
         </header>
@@ -72,31 +77,39 @@
                     <div class="section__info">
                         <div class="section__info-block">
                             <i class="icon-stack"></i>
-                            <h5 class="section__info-block-title">Stack</h5>
-                            <p class="section__info-description">React/React Native,<br>
-                                NodeJS, JS, PHP
-                            </p>
+                            <div class="section__info-block-content">
+                                <h5 class="section__info-block-title">Stack</h5>
+                                <p class="section__info-block-description">React/React Native,<br>
+                                    NodeJS, JS, PHP
+                                </p>
+                            </div>
                         </div>
                         <div class="section__info-block">
                             <i class="icon-database"></i>
-                            <h5 class="section__info-block-title">Database</h5>
-                            <p class="section__info-description">
-                                mongoDB, MySQL, Redis,
-                                rethinkDB
-                            </p>
+                            <div class="section__info-block-content">
+                                <h5 class="section__info-block-title">Database</h5>
+                                <p class="section__info-block-description">
+                                    mongoDB, MySQL, Redis,
+                                    rethinkDB
+                                </p>
+                            </div>
                         </div>
                         <div class="section__info-block">
                             <i class="icon-apps"></i>
-                            <h5 class="section__info-block-title">Desktop and Mobile Apps</h5>
-                            <p class="section__info-description">
-                                Electron (MacOS, Windows),
-                                React Native (iOS, Android, Windows)
-                            </p>
+                            <div class="section__info-block-content">
+                                <h5 class="section__info-block-title">Desktop and Mobile Apps</h5>
+                                <p class="section__info-block-description">
+                                    Electron (MacOS, Windows),
+                                    React Native (iOS, Android, Windows)
+                                </p>
+                            </div>
                         </div>
                         <div class="section__info-block">
                             <i class="icon-agile"></i>
-                            <h5 class="section__info-block-title">Agile Development</h5>
-                            <p class="section__info-description">Agile ready team</p>
+                            <div class="section__info-block-content">
+                                <h5 class="section__info-block-title">Agile Development</h5>
+                                <p class="section__info-block-description">Agile ready team</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -144,14 +157,25 @@
                                 <input type="text" class="form__input" placeholder="Phone">
                             </div>
                         </div>
-                        <div class="button form__button">
-                            <span class="button__span">Send</span>
-                            <i class="icon-arrow"></i></div>
+                        <div class="form__row">
+                            <div class="button form__button">
+                                <span class="button__span">Send</span>
+                                <i class="icon-arrow"></i>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer__in">
+                <div class="footer__links">
+                    <a href="" class="footer__link">impressum</a>
+                    <span class="footer__separator">|</span>
+                    <a href="" class="footer__link">agb</a>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="js/main.js"></script>
 </body>

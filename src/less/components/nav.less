@@ -4,7 +4,17 @@
   justify-content: flex-start;
   width: 100%;
   transition: all 500ms ease;
-
+  @media(max-width: 900px){
+    display: none;
+  }
+  &__toggle-button{
+    display: none;
+    @media(max-width: 900px){
+      display: flex;
+      margin-left: auto;
+      color: white;
+    }
+  }
   &__link{
     font-size: 1.2rem;
     color: @white;
@@ -23,10 +33,18 @@
     border: none;
     background: none;
     outline: 0;
+    padding: 0;
+    @media(max-width: 1100px){
+      margin-left: 3rem;
+    }
+    @media(max-width: 900px){
+      display: none;
+    }
   }
   &__share{
     margin-left: auto;
     align-self: center;
+    display: inline-flex;
     &:hover{
       color: @hover-color;
     }
@@ -38,4 +56,17 @@
     color: @hover-color;
     border-color: @hover-color;
   }
+}
+.share-block{
+  display: inline-flex;
+  align-items: center;
+  .nav__link{
+    padding: 0;
+    @media(max-width: 1100px){
+      margin-left: 3rem;
+    }
+  }
+}
+.hide{
+  display: none;
 }

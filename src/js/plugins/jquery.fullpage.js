@@ -505,7 +505,7 @@
                 if(!isResponsive){
                     setAutoScrolling(false, 'internal');
                     setFitToSection(false, 'internal');
-                    $(SECTION_NAV_SEL).hide();
+                     $(SECTION_NAV_SEL).hide();
                     $body.addClass(RESPONSIVE);
                     $.isFunction( options.afterResponsive ) && options.afterResponsive.call( container, active);
                 }

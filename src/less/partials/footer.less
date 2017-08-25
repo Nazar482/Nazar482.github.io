@@ -1,0 +1,49 @@
+.footer{
+  width: 100%;
+  background-color: @background-color;
+  z-index: 9999;
+  bottom: 6rem;
+  position: absolute;
+  @media(max-width: 900px){
+    width: 200px;
+    bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 5rem;
+  }
+  &__in{
+    max-width: 1100px;
+    z-index: 9999;
+    margin: 0 auto;
+    @media (max-width: 1100px){
+      padding: 0 2rem;
+    }
+  }
+  &__links{
+    padding-left: 31rem;
+    @media(max-width: 900px){
+      padding-left: 0;
+    }
+  }
+  &__link{
+    font-size: 1.2rem;
+    color: @white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: @U-mono;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    &:hover {
+      color: @hover-color;
+    }
+  }
+  &__separator{
+    font-size: 1.2rem;
+    color: @white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: @U-mono;
+    padding-left: 1rem; padding-right: 1rem;
+  }
+}
