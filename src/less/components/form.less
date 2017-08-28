@@ -22,7 +22,7 @@
   }
   &__group{
     width: calc(50% - 6rem);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     &:first-child{
       margin-right: 12rem;
     }
@@ -37,6 +37,12 @@
       }
     }
   }
+  &__group_full-width {
+    width: 100%;
+    &:first-child{
+      margin-right: 0;
+    }
+  }
   &__input{
     width: 100%;
     margin: 0;
@@ -48,18 +54,29 @@
     font-size: 1.5rem;
     background: none;
     font-family: @U-light;
-    padding: 1.4rem 0;
+    padding: .8rem 0;
     &::placeholder{
       color: @white;
-    }
-    @media(max-width: 640px){
-      padding: 1rem 0;
     }
   }
   &__button{
     margin-left: auto;
+    margin-top: 2rem;
     @media (max-width: 640px){
       margin-top: 0rem;
+    }
+  }
+  &__success{
+    display: none;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    font-size: 4rem !important;
+    text-align: center;
+    left: 0;
+    right: 0;
+    @media(max-width: 640px){
+      font-size: 2rem !important;
     }
   }
 }

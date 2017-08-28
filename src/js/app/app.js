@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".wrapper").hide();
+
     $(".loader").css("zoom","150%").fadeOut(5000, function() {
         $(".wrapper").fadeIn(1000);
     });
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 
     $(".menu-toggle").click(function(){
-        $(".menu").show();
+        $(".menu").fadeIn(1000);
     });
     $(".close-menu").click(function(){
        $(".menu").hide();
@@ -54,4 +54,9 @@ $(document).ready(function() {
     $(".close-modal").click(function(){
         $(".modal").fadeOut();
     });
+
+    $(".button-submit").click(function(){
+        $(".form__success").fadeIn(1000).delay(3000).fadeOut(1000);
+        $(".section__main-content").fadeOut().delay(4500).fadeIn(1000);
+    })
 });
