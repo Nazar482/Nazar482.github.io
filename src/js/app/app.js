@@ -28,16 +28,16 @@ $(document).ready(function() {
     });
 
     $(".share-button").click(function(){
-       $(".share-block").toggleClass("hide");
-       $(".share-button").children("i").toggleClass("icon-share icon-close");
+        $(".share-block").toggleClass("hide");
+        $(".share-button").children("i").toggleClass("icon-share icon-close");
     });
 
 
     $(".menu-toggle").click(function(){
-        $(".menu").fadeIn(1000);
+        $(".menu").show();
     });
     $(".close-menu").click(function(){
-       $(".menu").hide();
+        $(".menu").hide();
     });
     $(".nav__link").click(function(){
         if($(window).width() < 900){
