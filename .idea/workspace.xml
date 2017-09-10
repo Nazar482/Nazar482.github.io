@@ -2,6 +2,315 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d1cd46-3ffa-441b-9a4f-78dd596372ec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/Ubuntu-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/Ubuntu-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/UbuntuMono-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/UbuntuMono-R.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/ubtfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/ubtfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/ubtfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/ubtfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Boozy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Daily Playlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Daily.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Geggz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Nova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/PushExpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/S7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Sputnik.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/Tic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-fifth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-fourth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/bg-third.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/close-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/fortest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/small-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/toggle-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/Ubuntu-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/Ubuntu-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/UbuntuMono-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/UbuntuMono-R.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/ubtfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/ubtfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/ubtfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/ubtfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Boozy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Daily.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Geggz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Nova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/PushExpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/S7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Sputnik.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/Tic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-fifth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-fourth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/bg-third.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/close-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/fortest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/small-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/toggle-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/Ubuntu-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/Ubuntu-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/UbuntuMono-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/UbuntuMono-R.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/ubtfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/ubtfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/ubtfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/ubtfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Boozy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Daily Playlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Daily.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Geggz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Nova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/PushExpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/S7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Sputnik.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/Tic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-fifth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-fourth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/bg-third.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/close-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/fortest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/small-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/toggle-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/Ubuntu-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/Ubuntu-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/UbuntuMono-B.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/UbuntuMono-R.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/ubtfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/ubtfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/ubtfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/ubtfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Boozy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Daily.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Geggz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Nova.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/PushExpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/S7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Sputnik.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/Tic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-fifth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-fourth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-second.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/bg-third.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/close-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/fb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/fortest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/small-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/toggle-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/img/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/fonts/ubtfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/build/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/fonts/ubtfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/js/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/js/plugins/jquery.fullpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/base/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/base/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/fullpage.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/gallery.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/icon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/loader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/modal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/components/section.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/partials/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/partials/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/plugins/slick-theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/less/plugins/ubtfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/push-express/src/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/fonts/ubtfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/build/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/fonts/ubtfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/js/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/js/plugins/jquery.fullpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/base/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/base/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/fullpage.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/gallery.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/icon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/loader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/modal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/components/section.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/main.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/partials/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/partials/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/plugins/slick-theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/less/plugins/ubtfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ubt/src/templates/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Ubuntu-B.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/Ubuntu-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/UbuntuMono-B.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/UbuntuMono-R.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ubtfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ubtfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ubtfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ubtfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/fonts/ubtfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Boozy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Daily Playlist.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Daily.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Geggz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Nova.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/PushExpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/S7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Sputnik.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/Tic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-fifth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-fourth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/bg-third.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/close-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/fb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/fortest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/slide-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/small-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/toggle-btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Ubuntu-B.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/Ubuntu-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/UbuntuMono-B.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/UbuntuMono-R.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/slick.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/slick.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/slick.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/slick.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ubtfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ubtfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ubtfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ubtfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/fonts/ubtfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Boozy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Daily.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Geggz.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Nova.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/PushExpress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/S7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Sputnik.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/Tic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-fifth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-first.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-fourth.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-second.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/bg-third.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/close-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/fb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/fortest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/slide-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/small-close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/toggle-btn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/app/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/plugins/jquery.fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/base/base.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/base/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/button.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/form.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/fullpage.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/gallery.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/icon.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/loader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/modal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/nav.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/components/section.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/main.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/partials/footer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/partials/header.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/plugins/slick-theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/plugins/ubtfont.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/templates/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,15 +328,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/app/app.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ubt/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-              <folding>
-                <marker date="1505068963000" expanded="true" signature="748:758" ph="{...}" />
-                <marker date="1505068963000" expanded="true" signature="1000:1032" ph="{...}" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/push-express/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/push-express/src/js/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,7 +416,6 @@
         <option value="$PROJECT_DIR$/src/templates/index1.html" />
         <option value="$USER_HOME$/Videos/Horizontal-Vertical-Image-Carousel-Slide-Fade-Animations-jqCarousel/index.html" />
         <option value="$USER_HOME$/Videos/Horizontal-Vertical-Image-Carousel-Slide-Fade-Animations-jqCarousel/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/less/plugins/ubtfont.css" />
         <option value="$PROJECT_DIR$/src/js/plugins/jquery.fullpage.js" />
         <option value="$PROJECT_DIR$/build/css/main.css" />
@@ -103,6 +438,8 @@
         <option value="$PROJECT_DIR$/src/less/components/form.less" />
         <option value="$PROJECT_DIR$/src/less/base/base.less" />
         <option value="$PROJECT_DIR$/src/js/app/app.js" />
+        <option value="$PROJECT_DIR$/ubt/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -111,9 +448,6 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -144,20 +478,7 @@
             <path>
               <item name="Nazar482.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nazar482.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nazar482.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nazar482.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nazar482.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nazar482.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="ubt" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,13 +499,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\UBT\src\less\plugins" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/push-express" />
       <recent name="$PROJECT_DIR$/src/fonts" />
       <recent name="E:\UBT\src\fonts" />
       <recent name="E:\UBT\src\js\plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/push-express" />
+      <recent name="$PROJECT_DIR$/ubt" />
+      <recent name="E:\UBT\src\less\plugins" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -288,16 +612,15 @@
       <workItem from="1503930228726" duration="2999000" />
       <workItem from="1503945266329" duration="692000" />
       <workItem from="1504629799860" duration="624000" />
-      <workItem from="1505068917920" duration="46000" />
+      <workItem from="1505068917920" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64527000" />
+    <option name="totallyTimeSpent" value="65167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30226436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -305,7 +628,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3948536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3948536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -348,15 +671,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/templates/index1.html" />
-    <entry file="file://$PROJECT_DIR$/src/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/plugins/pagePilling.less" />
     <entry file="file://$PROJECT_DIR$/src/less/components/section.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -396,9 +710,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="47" />
-          <folding>
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,13 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -604,9 +909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-          <folding>
-            <element signature="n#footer#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,9 +917,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10545">
           <caret line="709" column="64" lean-forward="false" selection-start-line="709" selection-start-column="57" selection-end-line="709" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -632,10 +933,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
-          <folding>
-            <marker date="1505068963000" expanded="true" signature="748:758" ph="{...}" />
-            <marker date="1505068963000" expanded="true" signature="1000:1032" ph="{...}" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push-express/src/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ubt/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push-express/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
