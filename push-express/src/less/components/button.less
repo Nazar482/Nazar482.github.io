@@ -1,36 +1,23 @@
 .button{
-  color: @white;
-  background: none;
-  border: none;
+  color: @button-color;
+  background: transparent;
   text-transform: uppercase;
-  padding: 0;
   cursor: pointer;
-  display: flex;
-  align-items: flex-start;
   margin-top: 4rem;
   outline: 0;
+  border-radius: 3px;
+  transform: skew(-10deg);
+  border: 2px solid #6d0387;
+  transition: all .4s ease-in-out;
   &:hover{
-    color: @hover-color;
-    .button__span{
-      color: @hover-color;
-      border-color: @hover-color;
-    }
+    background: @hover-color;
+    color: @white;
   }
   &__span{
-    padding-bottom: 3rem;
-    border-bottom: 2px solid #fff;
-    font-family: @U-mono-bold;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  .icon-arrow{
-    background: url("../img/arrow.png") no-repeat;
-    background-size: 100%;
-    width: 20px;
-    height: 20px;
+    padding: 1.8rem 2rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    transform: skew(10deg);
     display: inline-block;
-    cursor: pointer;
-    margin-left: 2rem;
-    margin-top: .2rem;
   }
 }

@@ -16,6 +16,7 @@
     "gulp-minify-css": "*",
     "gulp-uglify": "*",
     "gulp-watch": "*",
-    "gulp-rigger": "*"
+    "gulp-rigger": "*",
+    "slick-carousel": "^1.7.1"
   }
 }

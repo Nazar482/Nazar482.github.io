@@ -5,7 +5,8 @@
   "author": "N.Atamaniuk",
   "license": "ISC",
   "dependencies": {
-    "gulp": "*"
+    "gulp": "*",
+    "slick": "^1.12.2"
   },
   "devDependencies": {
     "browser-sync": "*",
@@ -14,8 +15,9 @@
     "gulp-autoprefixer": "*",
     "gulp-less": "*",
     "gulp-minify-css": "*",
+    "gulp-rigger": "*",
     "gulp-uglify": "*",
     "gulp-watch": "*",
-    "gulp-rigger": "*"
+    "slick-carousel": "^1.7.1"
   }
 }

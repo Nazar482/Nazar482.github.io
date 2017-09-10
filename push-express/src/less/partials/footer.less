@@ -3,7 +3,7 @@
   //background-color: @background-color;
   z-index: 1000;
   bottom: 60px;
-  position: absolute;
+  position: fixed;
   @media(max-width: 900px){
     width: calc(100% - 5rem);
     bottom: 0;
@@ -38,11 +38,10 @@
   }
   &__link{
     font-size: 1.2rem;
-    color: @white;
+    color: @main-color;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 500;
-    font-family: @U-mono;
     padding-bottom: 2rem;
     padding-top: 2rem;
     &:hover {
@@ -51,10 +50,9 @@
   }
   &__separator{
     font-size: 1.2rem;
-    color: @white;
+    color: @main-color;
     text-transform: uppercase;
     font-weight: 500;
-    font-family: @U-mono;
     padding-left: 1rem; padding-right: 1rem;
   }
   &__share{
