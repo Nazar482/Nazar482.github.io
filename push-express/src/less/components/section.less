@@ -1,17 +1,35 @@
 .section{
-  padding-left: 25em;
+  padding-left: 25rem;
   color: @main-color;
   background-position: 100% -50%;
   background-size: contain;
   background-repeat: no-repeat;
-  height: calc(64vh);
+  height: 64vh;
   margin-top: 20rem;
   margin-bottom: 20rem;
   @media (max-width: 1100px){
-    padding: 0 10rem;
+    padding-left: 20rem;
   }
   @media(max-width: 900px){
     padding: 0 2rem;
+  }
+  @media(max-width: 768px){
+    background-position: center center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10rem;
+    height: calc(100vh - 20rem);
+    margin-bottom: 10rem;
+  }
+  @media(max-width: 640px){
+    &:first-child{
+      margin-top: 70px;
+    }
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 4rem;
   }
   @media only screen and (max-width: 640px) and (orientation : portrait) {
     background-position: center center;
@@ -24,15 +42,16 @@
     margin: 0 0 3rem 0;
     line-height: 6rem;
     @media (max-width: 1100px){
-      font-size: 3rem;
+      font-size: 4rem;
       line-height: 3.5rem;
       margin-bottom: 2.5rem;
     }
     @media(max-width: 640px){
-      font-size: 2.2rem;
-      font-weight: 600;
+      font-size: 2.8rem;
+      font-weight: 500;
       line-height: 2.5rem;
       margin-bottom: 1.5rem;
+      text-align: center;
     }
   }
   &__description{
@@ -45,14 +64,16 @@
 
     @media (max-width: 1100px){
       max-width: 65%;
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       line-height: 2rem;
     }
     @media (max-width: 975px){
       max-width: 75%;
     }
-    @media(max-width: 640px){
+    @media(max-width: 768px){
       max-width: 100%;
+      font-weight: 400;
+      font-size: 1.6rem;
     }
 
   }
@@ -61,17 +82,33 @@
   }
   &__content{
     position: relative;
-  }
-  &-second{
-    background-image: url(../img/figure-1.png);
+    @media(max-width: 768px){
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      padding-top: 4rem;
+    }
   }
   &-first{
     background-image: url(../img/figure-2.png);
     background-position: 100% -10%;
+    .section-first__icon{
+      order: 3;
+    }
+    .button{
+      order: 4;
+    }
+    @media(max-width: 640px){
+      background-size: contain;
+    }
   }
   &-second{
     background-image: url(../img/figure-3.png);
     background-position: 100% 0;
+    @media(max-width: 640px){
+      background-size: contain;
+    }
   }
   &-third{
     background-image: url(../img/figure-4.png);
@@ -80,12 +117,30 @@
   &-fourth{
     background-image: url(../img/figure-1.png);
     background-position: 100% 0;
+    .section-first__icon{
+      order: 3;
+    }
+    .button{
+      order: 4;
+    }
+    @media(max-width: 640px){
+      background-size: contain;
+    }
   }
   &-fifth{
     background-image: url(../img/figure-5.png);
+    @media(max-width: 1100px){
+      padding-right: 2rem;
+    }
+    @media(max-width: 900px){
+      padding: 0 2rem;
+    }
+
+
   }
   &-sixth{
     background-image: url(../img/figure-6.png);
+
   }
 
   &__info{
@@ -93,10 +148,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 40px;
+    @media(max-width: 640px){
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
   }
   &__info_fourth{
     .section__info-block{
       width: 50%;
+      @media(max-width: 640px){
+        width: 100%;
+      }
     }
   }
   &-first__icon{
@@ -108,6 +170,63 @@
     display: block;
     top: 70%;
     right: 10%;
+    @media(max-width: 768px){
+      position: relative;
+      display: block;
+      top: inherit;
+      margin: 0 auto;
+      right: inherit;
+    }
+    @media(max-width: 640px){
+      width: 300px;
+      height: 200px;
+      background-size: contain;
+      margin-top: 4rem;
+    }
+  }
+  &-second__icon{
+    background: url(../img/section-2-icon.png) 100% -50% no-repeat;
+    background-size: auto;
+    position: absolute;
+    width: 400px;
+    height: 237px;
+    display: block;
+    top: 70%;
+    right: 10%;
+    @media(max-width: 768px){
+      position: relative;
+      display: block;
+      top: inherit;
+      margin: 0 auto;
+      right: inherit;
+    }
+    @media(max-width: 640px){
+      width: 300px;
+      height: 176px;
+      background-size: contain;
+      margin-top: 4rem;
+    }
+  }
+  &-third__icon{
+    background: url(../img/section-3-icon.png) 100% -50% no-repeat;
+    background-size: auto;
+    position: absolute;
+    width: 411px;
+    height: 222px;
+    display: block;
+    top: 70%;
+    right: 5%;
+    @media(max-width: 768px){
+      position: relative;
+      display: block;
+      top: inherit;
+      margin: 0 auto;
+      right: inherit;
+    }
+    @media(max-width: 640px){
+      display: none;
+
+    }
   }
   &__info-block{
     width: 33%;
@@ -118,15 +237,13 @@
     align-items: center;
     @media(max-width: 640px){
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
-      margin-bottom: 2rem;
-      justify-content: flex-start;
-      &:nth-child(2n+2){
-        justify-content: flex-end;
-        i{
-          order: 1;
-        }
+      margin-bottom: 4rem;
+      flex: 1 0 auto;
+      width: 100%;
+      &:last-child{
+        margin-bottom: 0;
       }
     }
 
@@ -165,8 +282,9 @@
       line-height: 2rem;
     }
     @media(max-width: 640px){
-      font-size: 1.18rem;
-      text-align: left;
+      font-size: 1.8rem;
+      text-align: center;
+      margin-top: 1rem;
     }
   }
   &__info-description{
@@ -194,10 +312,11 @@
     font-weight: 300;
     @media (max-width: 640px){
       padding: 0;
-      text-align: left;
+      text-align: center;
       font-weight: 300;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       line-height: 1.5rem;
+      max-width: 80%;
     }
   }
   &__price{
@@ -234,6 +353,9 @@
   display: table;
   width: 100%;
   border-collapse: collapse;
+  @media(max-width: 640px){
+    display: none;
+  }
   &__row{
     display: table-row;
   }
@@ -262,6 +384,9 @@
     text-align: center;
     width: 150px;
     border-bottom: 1px solid #000;
+    @media(max-width: 800px){
+      font-size: 1.2rem;
+    }
     &:last-child{
       .price-table__title{
         border: 0;
@@ -306,12 +431,18 @@
     border-left: 1px solid #000;
     width: 100%;
     display: inline-block;
+    @media(max-width: 800px){
+      font-size: 1.2rem;
+    }
   }
   &__title-bold{
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
+    @media(max-width: 800px){
+      font-size: 1.3rem;
+    }
 
   }
   &__button{
@@ -320,6 +451,11 @@
       font-size: 1.2rem;
       font-weight: 600;
       padding: 8px 14px;
+      @media(max-width: 800px){
+        font-size: 1.1rem;
+        font-weight: 600;
+        padding: 4px 4px;
+      }
     }
   }
 }

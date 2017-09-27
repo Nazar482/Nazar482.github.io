@@ -1,7 +1,9 @@
 .form{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  @media(max-width: 640px){
+    padding: 0 2rem;
+  }
 
   &__row{
     display: flex;
@@ -67,7 +69,7 @@
     margin-right: auto;
     margin-top: 2rem;
     @media (max-width: 640px){
-      margin-top: 0rem;
+      margin-top: 4rem;
     }
   }
   &__success{
