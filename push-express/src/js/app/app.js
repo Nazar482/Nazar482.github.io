@@ -5,14 +5,14 @@ $(document).ready(function() {
         $(".wrapper").fadeIn(1000);
     });
 
-    $('.gallery').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear',
-        centerMode: true,
-    });
+    // $('.gallery').slick({
+    //     dots: false,
+    //     infinite: true,
+    //     speed: 500,
+    //     fade: true,
+    //     cssEase: 'linear',
+    //     centerMode: true,
+    // });
 
     $(".share-button").click(function(){
         $(".share-block").toggleClass("hide");

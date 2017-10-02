@@ -10,528 +10,558 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="loader">
-        <img src="img/logo.png" alt="">
-    </div>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__in">
-                <div class="header__navbar">
-                    <div class="header__logo"><img src="img/logo.png" alt=""></div>
-                    <nav class="nav menu">
-                        <div class="nav__in mobile-menu">
-                            <i class="close-menu icon-close-black"></i>
+<div class="loader">
+    <img src="img/logo.png" alt="">
+</div>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__in">
+            <div class="header__navbar">
+                <div class="header__logo"><img src="img/logo.png" alt=""></div>
+                <i class="fa fa-bars nav__toggle-button menu-toggle" aria-hidden="true"></i>
+                <nav class="nav nav-mobile menu">
+                    <div class="nav__in mobile-menu">
+                    <i class="close-menu icon-close-black"></i>
+                        <div class="nav__lang">
+                            <div class="share-block">
+                                <a href="" class="nav__link nav__link_lang">En</a>
+                                <a href="" class="nav__link nav__link_lang-active nav__link_lang">De</a>
+                            </div>
+                        </div>
+                    <div class="nav__mobile-links">
+                        <a href="#first-section" class="nav__link" data-menuanchor="about">Home</a>
+                        <a href="#second-section" class="nav__link" data-menuanchor="services">Features</a>
+                        <a href="#third-section" class="nav__link" data-menuanchor="about">What For?</a>
+                        <a href="#fourth-section" class="nav__link" data-menuanchor="services">Partners</a>
+                        <a href="#fifth-section" class="nav__link" data-menuanchor="about">Prices</a>
+                        <a href="#sixth-section" class="nav__link" data-menuanchor="services">Contact</a>
+                    </div>
+                    <div class="nav__mobile-links nav__mobile-links_footer">
+                        <a href="" class="nav__link">AGB</a>
+                        <a href="" class="nav__link">impressum</a>
+                    </div>
+                    <div class="footer__share footer__share_nav">
+                        <a class="footer__share-link" href="">
+                            <i class="fa fa-facebook-official"></i>
+                        </a>
+                        <a class="footer__share-link" href="">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="footer__share-link" href="">
+                            <i class="fa fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+                </nav>
+                <div class="nav nav-desktop">
+                    <div class="nav__in mobile-menu">
+                        <i class="close-menu icon-close-black"></i> <i class="close-menu icon-close-black"></i>
+                        <a href="#" class="nav__link" data-menuanchor="about">Клиентам</a>
+                        <a href="#" class="nav__link" data-menuanchor="services">Партнерам</a>
+                        <div class="nav__lang">
                             <div class="nav__lang">
                                 <div class="share-block">
-                                    <a href="" class="nav__link nav__link_lang">En</a>
-                                    <a href="" class="nav__link nav__link_lang-active nav__link_lang">De</a>
+                                    <div class="share-block">
+                                        <a href="" class="nav__link nav__link_lang">En</a>
+                                        <a href="" class="nav__link nav__link_lang-active nav__link_lang">De</a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="nav__mobile-links">
-                                <a href="#first-section" class="nav__link" data-menuanchor="about">Home</a>
-                                <a href="#second-section" class="nav__link" data-menuanchor="services">Features</a>
-                                <a href="#third-section" class="nav__link" data-menuanchor="about">What For?</a>
-                                <a href="#fourth-section" class="nav__link" data-menuanchor="services">Partners</a>
-                                <a href="#fifth-section" class="nav__link" data-menuanchor="about">Prices</a>
-                                <a href="#sixth-section" class="nav__link" data-menuanchor="services">Contact</a>
-                            </div>
-                            <div class="nav__mobile-links nav__mobile-links_footer">
-                                <a href="" class="nav__link">AGB</a>
-                                <a href="" class="nav__link">impressum</a>
-                            </div>
-                            <div class="footer__share footer__share_nav">
-                                <a class="footer__share-link" href="">
-                                    <i class="fa fa-facebook-official"></i>
-                                </a>
-                                <a class="footer__share-link" href="">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                                <a class="footer__share-link" href="">
-                                    <i class="fa fa-google"></i>
-                                </a>
-                            </div>
                         </div>
-                    </nav>
-                    <i class="fa fa-bars nav__toggle-button menu-toggle" aria-hidden="true" ></i>
+                    </div>
                 </div>
             </div>
-        </header>
-        <main class="main">
-            <ul class="side-nav" id="side-menu">
-                <li class="side-nav__item active">
-                    <a href="#first-section" class="side-nav__link">Home</a>
-                </li>
-                <li class="side-nav__item">
-                    <a href="#second-section" class="side-nav__link">Features</a>
-                </li>
-                <li class="side-nav__item">
-                    <a href="#third-section" class="side-nav__link">What For?</a>
-                </li>
-                <li class="side-nav__item">
-                    <a href="#fourth-section" class="side-nav__link">Partners</a>
-                </li>
-                <li class="side-nav__item">
-                    <a href="#fifth-section" class="side-nav__link">Prices</a>
-                </li>
-                <li class="side-nav__item">
-                    <a href="#sixth-section" class="side-nav__link">Contact</a>
-                </li>
-            </ul>
-            <div class="section-block">
-                <div class="section section-first active" id="first-section">
-                    <div class="section__content">
-                        <h1 class="section__title">
-                            Start push<br>
-                            your business today
-                        </h1>
-                        <p class="section__description">
-                            Browser push notifications is a best way
-                            to reactivate your user and customers.
-                        </p>
-                        <button class="button button_section">
-                            <span class="button__span">Sign up for free</span>
-                        </button>
-                        <i class="section-first__icon"></i>
+    </header>
+    <main class="main">
+        <ul class="side-nav" id="side-menu">
+            <li class="side-nav__item active">
+                <a href="#first-section" class="side-nav__link">Home</a>
+            </li>
+            <li class="side-nav__item">
+                <a href="#second-section" class="side-nav__link">Features</a>
+            </li>
+            <li class="side-nav__item">
+                <a href="#third-section" class="side-nav__link">What For?</a>
+            </li>
+            <li class="side-nav__item">
+                <a href="#fourth-section" class="side-nav__link">Partners</a>
+            </li>
+            <li class="side-nav__item">
+                <a href="#fifth-section" class="side-nav__link">Prices</a>
+            </li>
+            <li class="side-nav__item">
+                <a href="#sixth-section" class="side-nav__link">Contact</a>
+            </li>
+        </ul>
+        <div class="section-block">
+            <div class="section section-first active" id="first-section">
+                <div class="section__content">
+                    <h1 class="section__title">
+                        Start push<br>
+                        your business today
+                    </h1>
+                    <p class="section__description">
+                        Browser push notifications is a best way
+                        to reactivate your user and customers.
+                    </p>
+                    <button class="button button_section">
+                        <span class="button__span">Sign up for free</span>
+                    </button>
+                    <i class="section-first__icon"></i>
+                </div>
+            </div>
+            <div class="section section-second" id="second-section">
+                <h2 class="section__title section__title_big section__title_centered">
+                    No setup.<br>
+                    awesome features
+                </h2>
+                <div class="section__info">
+                    <div class="section__info-block">
+                        <i class="icon-5"></i>
+                        <h5 class="section__info-block-title">Features </h5>
+                        <p class="section__info-block-description">Easy website integration,no third party
+                            dependencies</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-4"></i>
+                        <h5 class="section__info-block-title">Diverse browser support</h5>
+                        <p class="section__info-block-description">Engage your users with multiple browser support</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-1"></i>
+                        <h5 class="section__info-block-title">Rich statistic </h5>
+                        <p class="section__info-block-description">Real-time converstation monitor,rich user and
+                            campaign statistic</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-3"></i>
+                        <h5 class="section__info-block-title">Scheduled delievery </h5>
+                        <p class="section__info-block-description">Schedule smart and easy your campaigns</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-2"></i>
+                        <h5 class="section__info-block-title">Deep integration via API</h5>
+                        <p class="section__info-block-description">Programmatically platform access for our premium
+                            customers and partners</p>
                     </div>
                 </div>
-                <div class="section section-second" id="second-section" >
-                    <h2 class="section__title section__title_big section__title_centered">
-                        No setup.<br>
-                        awesome features
+            </div>
+            <div class="section section-third" id="third-section">
+                <h2 class="section__title section__title_big">What for and Why?<br>
+                </h2>
+                <div class="section__info section__info_fourth">
+                    <div class="section__info-block">
+                        <i class="icon-6"></i>
+                        <h5 class="section__info-block-title">Features </h5>
+                        <p class="section__info-block-description">Easy website integration,no third party
+                            dependencies</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-7"></i>
+                        <h5 class="section__info-block-title">Diverse browser support</h5>
+                        <p class="section__info-block-description">Engage your users with multiple browser support</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-8"></i>
+                        <h5 class="section__info-block-title">Rich statistic </h5>
+                        <p class="section__info-block-description">Real-time converstation monitor,rich user and
+                            campaign statistic</p>
+                    </div>
+                    <div class="section__info-block">
+                        <i class="icon-9"></i>
+                        <h5 class="section__info-block-title">Scheduled delievery </h5>
+                        <p class="section__info-block-description">Schedule smart and easy your campaigns</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section section-fourth active" id="fourth-section">
+                <div class="section__content">
+                    <h1 class="section__title">
+                        Эффективный инструмент<br>
+                        маркетинга и продвижения
+                    </h1>
+                    <p class="section__description section__description_sm">
+                        Большая база собственных подписчиков
+                        по широкому кругу интересов и тематик
+                        позволит максимально быстро и эффективно
+                        провести рекламную компанию ваших товаров
+                        и услуг. Зарегистрируйтесь в качестве партнера
+                        и начните продвижение уже сегодня!
+                    </p>
+                    <button class="button button_section">
+                        <span class="button__span">Зарегистрироватся</span>
+                    </button>
+                    <i class="section-second__icon"></i>
+                </div>
+            </div>
+            <div class="section section-fifth" id="fifth-section">
+                <div class="section__content">
+                    <h2 class="section__title section__title_big">
+                        Bundles and Prices
                     </h2>
-                   <div class="section__info">
-                       <div class="section__info-block">
-                           <i class="icon-5"></i>
-                           <h5 class="section__info-block-title">Features </h5>
-                           <p class="section__info-block-description">Easy website integration,no third party dependencies</p>
-                       </div>
-                       <div class="section__info-block">
-                           <i class="icon-4"></i>
-                           <h5 class="section__info-block-title">Diverse browser support</h5>
-                           <p class="section__info-block-description">Engage your users with multiple browser support</p>
-                       </div>
-                       <div class="section__info-block">
-                           <i class="icon-1"></i>
-                           <h5 class="section__info-block-title">Rich statistic </h5>
-                           <p class="section__info-block-description">Real-time converstation monitor,rich user and campaign statistic</p>
-                       </div>
-                       <div class="section__info-block">
-                           <i class="icon-3"></i>
-                           <h5 class="section__info-block-title">Scheduled delievery </h5>
-                           <p class="section__info-block-description">Schedule smart and easy your campaigns</p>
-                       </div>
-                       <div class="section__info-block">
-                           <i class="icon-2"></i>
-                           <h5 class="section__info-block-title">Deep integration via API</h5>
-                           <p class="section__info-block-description">Programmatically platform access for our premium customers and partners</p>
-                       </div>
-                   </div>
-                </div>
-                <div class="section section-third" id="third-section" >
-                    <h2 class="section__title section__title_big">What for and Why?<br>
-                    </h2>
-                    <div class="section__info section__info_fourth">
-                        <div class="section__info-block">
-                            <i class="icon-6"></i>
-                            <h5 class="section__info-block-title">Features </h5>
-                            <p class="section__info-block-description">Easy website integration,no third party dependencies</p>
-                        </div>
-                        <div class="section__info-block">
-                            <i class="icon-7"></i>
-                            <h5 class="section__info-block-title">Diverse browser support</h5>
-                            <p class="section__info-block-description">Engage your users with multiple browser support</p>
-                        </div>
-                        <div class="section__info-block">
-                            <i class="icon-8"></i>
-                            <h5 class="section__info-block-title">Rich statistic </h5>
-                            <p class="section__info-block-description">Real-time converstation monitor,rich user and campaign statistic</p>
-                        </div>
-                        <div class="section__info-block">
-                            <i class="icon-9"></i>
-                            <h5 class="section__info-block-title">Scheduled delievery </h5>
-                            <p class="section__info-block-description">Schedule smart and easy your campaigns</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="section section-fourth active" id="fourth-section">
-                    <div class="section__content">
-                        <h1 class="section__title">
-                            Эффективный инструмент<br>
-                            маркетинга и продвижения
-                        </h1>
-                        <p class="section__description section__description_sm">
-                            Большая база собственных подписчиков
-                            по широкому кругу интересов и тематик
-                            позволит максимально быстро и эффективно
-                            провести рекламную компанию ваших товаров
-                            и услуг. Зарегистрируйтесь в качестве партнера
-                            и начните продвижение уже сегодня!
-                        </p>
-                        <button class="button button_section">
-                            <span class="button__span">Зарегистрироватся</span>
-                        </button>
-                        <i class="section-second__icon"></i>
-                    </div>
-                </div>
-                <div class="section section-fifth" id="fifth-section">
-                    <div class="section__content">
-                        <h2 class="section__title section__title_big">
-                            Bundles and Prices
-                        </h2>
-                        <div class="price-table">
-                            <div class="price-table__row price-table__row_borderless">
-                                <div class="price-table__column price-table__column_title price-table__column_main-title">
+                    <div class="price-table">
+                        <div class="price-table__row price-table__row_borderless">
+                            <div class="price-table__column price-table__column_title price-table__column_main-title">
 
-                                </div>
-                                <div class="price-table__column price-table__column_main-title">
-                                    <span class="price-table__title-bold ">FREE</span>
-                                </div>
-                                <div class="price-table__column price-table__column_main-title">
-                                    <span class="price-table__title-bold">Smart</span>
-                                </div>
-                                <div class="price-table__column price-table__column_main-title price-table__column_active">
-                                    <span class="price-table__title-bold">Best Choice</span>
-                                </div>
-                                <div class="price-table__column price-table__column_main-title">
-                                    <span class="price-table__title-bold">Flexible</span>
-                                </div>
                             </div>
-                            <div class="price-table__row">
-                                <div class="price-table__column price-table__column_title">
+                            <div class="price-table__column price-table__column_main-title">
+                                <span class="price-table__title-bold ">FREE</span>
+                            </div>
+                            <div class="price-table__column price-table__column_main-title">
+                                <span class="price-table__title-bold">Smart</span>
+                            </div>
+                            <div class="price-table__column price-table__column_main-title price-table__column_active">
+                                <span class="price-table__title-bold">Best Choice</span>
+                            </div>
+                            <div class="price-table__column price-table__column_main-title">
+                                <span class="price-table__title-bold">Flexible</span>
+                            </div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price-table__column price-table__column_title">
                                     <span class="price-table__title-main">Platform ad<br>
                                     (advertisement notifications)</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Yes</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">No</span>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <span class="price-table__title">Yes</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Yes</span>
-                                </div>
                             </div>
-                            <div class="price-table__row">
-                                <div class="price-table__column price-table__column_title">
-                                    <span class="price-table__title-main">Project count</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">1</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Unlimited</span>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <span class="price-table__title">Unlimited</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Unlimited</span>
-                                </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">Yes</span>
                             </div>
-                            <div class="price-table__row">
-                                <div class="price-table__column price-table__column_title">
-                                    <span class="price-table__title-main">Notification count (month)</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">5000</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">10000</span>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <span class="price-table__title">100000</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Unlimited</span>
-                                </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">No</span>
                             </div>
-                            <div class="price-table__row">
-                                <div class="price-table__column price-table__column_title">
-                                    <span class="price-table__title-main">API Access</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">No</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">No</span>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <span class="price-table__title">Yes</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title">Yes</span>
-                                </div>
+                            <div class="price-table__column price-table__column_active">
+                                <span class="price-table__title">Yes</span>
                             </div>
-                            <div class="price-table__row price-table__row_price price-table__row_borderless">
-                                <div class="price-table__column price-table__column_title">
-                                    <span class="price-table__title-main">Price</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title-bold">0</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title-bold">25$</span>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <span class="price-table__title-bold">75$</span>
-                                </div>
-                                <div class="price-table__column">
-                                    <span class="price-table__title-bold">0.02 <small>cent</small></span><br>
-                                    <small class="price-table__title-sm">per notification</small>
-                                </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">Yes</span>
                             </div>
-                            <div class="price-table__row price-table__row_buttons price-table__row_borderless">
-                                <div class="price-table__column price-table__column_title">
-
-                                </div>
-                                <div class="price-table__column">
-                                    <button class="price-table__button button"><span class="button__span">Start Now</span></button>
-                                </div>
-                                <div class="price-table__column">
-                                    <button class="price-table__button button"><span class="button__span">Start Now</span></button>
-                                </div>
-                                <div class="price-table__column price-table__column_active">
-                                    <button class="price-table__button button"><span class="button__span">Start Now</span></button>
-                                </div>
-                                <div class="price-table__column">
-                                    <button class="price-table__button button"><span class="button__span">Start Now</span></button>
-                                </div>
-                            </div>
-
                         </div>
-                        <div class="price-list bxslider">
-                            <div class="price-list__item price-list__item_active">
-                                <div class="price-list__item-in">
-                                    <div class="price-list__item-row">
-                                        <div class="price-list__item-main-title">FREE</div>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                          <span class=price-list__item-title>Platform ad<br>
-                                (advertisement notifications)</span>
-                                         <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Project count</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Notification count<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">500</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>API Access<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">No</span>
-                                    </div>
-                                    <div class="price-list__item-row price-list__item-row_price">
-                                        <span class=price-list__item-price>Price</span>
-                                        <span class="price-list__item-value price-list__item-value_price">0$</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <button class="price-list__button button"><span class="button__span">Start Now</span></button>
-                                    </div>
-                                </div>
+                        <div class="price-table__row">
+                            <div class="price-table__column price-table__column_title">
+                                <span class="price-table__title-main">Project count</span>
                             </div>
-                            <div class="price-list__item">
-                                <div class="price-list__item-in">
-                                    <div class="price-list__item-row">
-                                        <div class="price-list__item-main-title">FREE</div>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                          <span class=price-list__item-title>Platform ad<br>
-                                (advertisement notifications)</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Project count</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Notification count<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">500</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>API Access<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">No</span>
-                                    </div>
-                                    <div class="price-list__item-row price-list__item-row_price">
-                                        <span class=price-list__item-price>Price</span>
-                                        <span class="price-list__item-value price-list__item-value_price">0$</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <button class="price-list__button button"><span class="button__span">Start Now</span></button>
-                                    </div>
-                                </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">1</span>
                             </div>
-                            <div class="price-list__item">
-                                <div class="price-list__item-in">
-                                    <div class="price-list__item-row">
-                                        <div class="price-list__item-main-title">FREE</div>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                          <span class=price-list__item-title>Platform ad<br>
-                                (advertisement notifications)</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Project count</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Notification count<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">500</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>API Access<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">No</span>
-                                    </div>
-                                    <div class="price-list__item-row price-list__item-row_price">
-                                        <span class=price-list__item-price>Price</span>
-                                        <span class="price-list__item-value price-list__item-value_price">0$</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <button class="price-list__button button"><span class="button__span">Start Now</span></button>
-                                    </div>
-                                </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">Unlimited</span>
                             </div>
-                            <div class="price-list__item">
-                                <div class="price-list__item-in">
-                                    <div class="price-list__item-row">
-                                        <div class="price-list__item-main-title">FREE</div>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                          <span class=price-list__item-title>Platform ad<br>
-                                (advertisement notifications)</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Project count</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Notification count<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">500</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>API Access<br>
-                                            (month)</span>
-                                        <span class="price-list__item-value">No</span>
-                                    </div>
-                                    <div class="price-list__item-row price-list__item-row_price">
-                                        <span class=price-list__item-price>Price</span>
-                                        <span class="price-list__item-value price-list__item-value_price">0$</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <button class="price-list__button button"><span class="button__span">Start Now</span></button>
-                                    </div>
-                                </div>
+                            <div class="price-table__column price-table__column_active">
+                                <span class="price-table__title">Unlimited</span>
                             </div>
-                            <div class="price-list__item">
-                                <div class="price-list__item-in">
-                                    <div class="price-list__item-row">
-                                        <div class="price-list__item-main-title">FREE</div>
-                                    </div>
-                                    <div class="price-list__item-row">
+                            <div class="price-table__column">
+                                <span class="price-table__title">Unlimited</span>
+                            </div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price-table__column price-table__column_title">
+                                <span class="price-table__title-main">Notification count (month)</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">5000</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">10000</span>
+                            </div>
+                            <div class="price-table__column price-table__column_active">
+                                <span class="price-table__title">100000</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">Unlimited</span>
+                            </div>
+                        </div>
+                        <div class="price-table__row">
+                            <div class="price-table__column price-table__column_title">
+                                <span class="price-table__title-main">API Access</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">No</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">No</span>
+                            </div>
+                            <div class="price-table__column price-table__column_active">
+                                <span class="price-table__title">Yes</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title">Yes</span>
+                            </div>
+                        </div>
+                        <div class="price-table__row price-table__row_price price-table__row_borderless">
+                            <div class="price-table__column price-table__column_title">
+                                <span class="price-table__title-main">Price</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title-bold">0</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title-bold">25$</span>
+                            </div>
+                            <div class="price-table__column price-table__column_active">
+                                <span class="price-table__title-bold">75$</span>
+                            </div>
+                            <div class="price-table__column">
+                                <span class="price-table__title-bold">0.02 <small>cent</small></span><br>
+                                <small class="price-table__title-sm">per notification</small>
+                            </div>
+                        </div>
+                        <div class="price-table__row price-table__row_buttons price-table__row_borderless">
+                            <div class="price-table__column price-table__column_title">
+
+                            </div>
+                            <div class="price-table__column">
+                                <button class="price-table__button button"><span class="button__span">Start Now</span>
+                                </button>
+                            </div>
+                            <div class="price-table__column">
+                                <button class="price-table__button button"><span class="button__span">Start Now</span>
+                                </button>
+                            </div>
+                            <div class="price-table__column price-table__column_active">
+                                <button class="price-table__button button"><span class="button__span">Start Now</span>
+                                </button>
+                            </div>
+                            <div class="price-table__column">
+                                <button class="price-table__button button"><span class="button__span">Start Now</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="price-list bxslider">
+                        <div class="price-list__item price-list__item_active">
+                            <div class="price-list__item-in">
+                                <div class="price-list__item-row">
+                                    <div class="price-list__item-main-title">FREE</div>
+                                </div>
+                                <div class="price-list__item-row">
                                           <span class=price-list__item-title>Platform ad<br>
                                 (advertisement notifications)</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <span class=price-list__item-title>Project count</span>
-                                        <span class="price-list__item-value">Yes</span>
-                                    </div>
-                                    <div class="price-list__item-row">
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <span class=price-list__item-title>Project count</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
                                         <span class=price-list__item-title>Notification count<br>
                                             (month)</span>
-                                        <span class="price-list__item-value">500</span>
-                                    </div>
-                                    <div class="price-list__item-row">
+                                    <span class="price-list__item-value">500</span>
+                                </div>
+                                <div class="price-list__item-row">
                                         <span class=price-list__item-title>API Access<br>
                                             (month)</span>
-                                        <span class="price-list__item-value">No</span>
-                                    </div>
-                                    <div class="price-list__item-row price-list__item-row_price">
-                                        <span class=price-list__item-price>Price</span>
-                                        <span class="price-list__item-value price-list__item-value_price">0$</span>
-                                    </div>
-                                    <div class="price-list__item-row">
-                                        <button class="price-list__button button"><span class="button__span">Start Now</span></button>
-                                    </div>
+                                    <span class="price-list__item-value">No</span>
+                                </div>
+                                <div class="price-list__item-row price-list__item-row_price">
+                                    <span class=price-list__item-price>Price</span>
+                                    <span class="price-list__item-value price-list__item-value_price">0$</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <button class="price-list__button button"><span
+                                            class="button__span">Start Now</span></button>
                                 </div>
                             </div>
                         </div>
-                        <div class="price-list__controls">
-                            <button class="price-list__controls-link price-list__controls-link_active"></button>
-                            <button class="price-list__controls-link"></button>
-                            <button class="price-list__controls-link"></button>
-                            <button class="price-list__controls-link"></button>
-                            <button class="price-list__controls-link"></button>
+                        <div class="price-list__item">
+                            <div class="price-list__item-in">
+                                <div class="price-list__item-row">
+                                    <div class="price-list__item-main-title">FREE</div>
+                                </div>
+                                <div class="price-list__item-row">
+                                          <span class=price-list__item-title>Platform ad<br>
+                                (advertisement notifications)</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <span class=price-list__item-title>Project count</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>Notification count<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">500</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>API Access<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">No</span>
+                                </div>
+                                <div class="price-list__item-row price-list__item-row_price">
+                                    <span class=price-list__item-price>Price</span>
+                                    <span class="price-list__item-value price-list__item-value_price">0$</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <button class="price-list__button button"><span
+                                            class="button__span">Start Now</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-list__item">
+                            <div class="price-list__item-in">
+                                <div class="price-list__item-row">
+                                    <div class="price-list__item-main-title">FREE</div>
+                                </div>
+                                <div class="price-list__item-row">
+                                          <span class=price-list__item-title>Platform ad<br>
+                                (advertisement notifications)</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <span class=price-list__item-title>Project count</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>Notification count<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">500</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>API Access<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">No</span>
+                                </div>
+                                <div class="price-list__item-row price-list__item-row_price">
+                                    <span class=price-list__item-price>Price</span>
+                                    <span class="price-list__item-value price-list__item-value_price">0$</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <button class="price-list__button button"><span
+                                            class="button__span">Start Now</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-list__item">
+                            <div class="price-list__item-in">
+                                <div class="price-list__item-row">
+                                    <div class="price-list__item-main-title">FREE</div>
+                                </div>
+                                <div class="price-list__item-row">
+                                          <span class=price-list__item-title>Platform ad<br>
+                                (advertisement notifications)</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <span class=price-list__item-title>Project count</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>Notification count<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">500</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>API Access<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">No</span>
+                                </div>
+                                <div class="price-list__item-row price-list__item-row_price">
+                                    <span class=price-list__item-price>Price</span>
+                                    <span class="price-list__item-value price-list__item-value_price">0$</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <button class="price-list__button button"><span
+                                            class="button__span">Start Now</span></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-list__item">
+                            <div class="price-list__item-in">
+                                <div class="price-list__item-row">
+                                    <div class="price-list__item-main-title">FREE</div>
+                                </div>
+                                <div class="price-list__item-row">
+                                          <span class=price-list__item-title>Platform ad<br>
+                                (advertisement notifications)</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <span class=price-list__item-title>Project count</span>
+                                    <span class="price-list__item-value">Yes</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>Notification count<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">500</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                        <span class=price-list__item-title>API Access<br>
+                                            (month)</span>
+                                    <span class="price-list__item-value">No</span>
+                                </div>
+                                <div class="price-list__item-row price-list__item-row_price">
+                                    <span class=price-list__item-price>Price</span>
+                                    <span class="price-list__item-value price-list__item-value_price">0$</span>
+                                </div>
+                                <div class="price-list__item-row">
+                                    <button class="price-list__button button"><span
+                                            class="button__span">Start Now</span></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="section section-sixth" id="sixth-section">
-                    <h2 class="form__success section__title">Your message has been successfully sent</h2>
-                    <div class="section__content">
-                        <h2 class="section__title section__title_big">
-                            Contact Us
-                        </h2>
-                        <form action="" class="form">
-                            <div class="form__row">
-                                <div class="form__group">
-                                    <input type="text" class="form__input" placeholder="Name">
-                                </div>
-                                <div class="form__group">
-                                    <input type="text" class="form__input" placeholder="Email">
-                                </div>
-                                <div class="form__group">
-                                    <input type="text" class="form__input" placeholder="Phone">
-                                </div>
-                                <div class="form__group">
-                                    <input type="text" class="form__input" placeholder="Message">
-                                </div>
-                            </div>
-                            <div class="form__row">
-                                <div class="button form__button button-submit">
-                                    <span class="button__span">Send Message</span>
-                                    <i class="icon-arrow"></i>
-                                </div>
-                            </div>
-                        </form>
-                        <i class="section-third__icon"></i>
+                    <div class="price-list__controls">
+                        <button class="price-list__controls-link price-list__controls-link_active"></button>
+                        <button class="price-list__controls-link"></button>
+                        <button class="price-list__controls-link"></button>
+                        <button class="price-list__controls-link"></button>
+                        <button class="price-list__controls-link"></button>
                     </div>
                 </div>
             </div>
-        </main>
-        <footer class="footer">
-            <div class="footer__in">
-                <div class="footer__links">
-                    <a href="" class="footer__link">impressum</a>
-                    <span class="footer__separator">|</span>
-                    <a href="" class="footer__link">agb</a>
-                </div>
-                <div class="footer__share">
-                    <a class="footer__share-link" href="">
-                        <i class="fa fa-facebook-official"></i>
-                    </a>
-                    <a class="footer__share-link" href="">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a class="footer__share-link" href="">
-                        <i class="fa fa-google"></i>
-                    </a>
+            <div class="section section-sixth" id="sixth-section">
+                <h2 class="form__success section__title">Your message has been successfully sent</h2>
+                <div class="section__content">
+                    <h2 class="section__title section__title_big">
+                        Contact Us
+                    </h2>
+                    <form action="" class="form">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Name">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Email">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Phone">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Message">
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="button form__button button-submit">
+                                <span class="button__span">Send Message</span>
+                                <i class="icon-arrow"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <i class="section-third__icon"></i>
                 </div>
             </div>
-        </footer>
-    </div>
-    <script src="js/main.js"></script>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__in">
+            <div class="footer__links">
+                <a href="" class="footer__link">impressum</a>
+                <span class="footer__separator">|</span>
+                <a href="" class="footer__link">agb</a>
+            </div>
+            <div class="footer__share">
+                <a class="footer__share-link" href="">
+                    <i class="fa fa-facebook-official"></i>
+                </a>
+                <a class="footer__share-link" href="">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a class="footer__share-link" href="">
+                    <i class="fa fa-google"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>
