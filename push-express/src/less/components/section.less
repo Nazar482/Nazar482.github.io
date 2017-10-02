@@ -135,7 +135,9 @@
     @media(max-width: 900px){
       padding: 0 2rem;
     }
-
+    @media(max-width: 640px){
+      background-size: cover;
+    }
 
   }
   &-sixth{
@@ -218,7 +220,7 @@
     right: 5%;
     @media(max-width: 768px){
       position: relative;
-      display: block;
+      display: none;
       top: inherit;
       margin: 0 auto;
       right: inherit;
@@ -460,3 +462,107 @@
   }
 }
 
+.price-list{
+  display: none;
+  @media(max-width: 640px){
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  &__item{
+    display: none;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 3px;
+  }
+  &__item_active{
+    display: flex;
+  }
+  &__item-in{
+    padding: 15px 20px;
+  }
+  &__item-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffc8f5;
+    &:first-child{
+      border-bottom: 0;
+    }
+    &:last-child{
+      border-bottom: 0;
+    }
+  }
+  &__item-row_price{
+    border-bottom: 0;
+  }
+  &__item-main-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+  }
+  &__item-value{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  &__item-value_price{
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  &__item-title{
+    font-size: 1.4rem;
+    font-weight: 400;
+    flex: 1;
+    line-height: 1.8;
+    display: inline-block;
+  }
+  &__item-price{
+    font-size: 2.4rem;
+    font-weight: 400;
+    flex: 1;
+    line-height: 1.8;
+    display: inline-block;
+  }
+  &__button{
+    margin-top: 0;
+    .button__span{
+      font-size: 1.4rem;
+      font-weight: 600;
+      padding: 12px 36px;
+      margin-top: 0;
+    }
+  }
+  &__controls{
+    display: none;
+    @media(max-width: 640px){
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+
+    }
+  }
+  &__controls-link{
+    width: 18px;
+    height: 4px;
+    border-radius: 22%;
+    margin: 0 6px;
+    background: #cdc3d0;
+    border: 0;
+  }
+  &__controls-link_active{
+    background: #d77af1;
+  }
+}

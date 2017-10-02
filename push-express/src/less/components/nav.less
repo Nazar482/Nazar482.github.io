@@ -13,7 +13,7 @@
     justify-content: flex-end;
     width: 100%;
     @media(max-width: 900px){
-      background: @main-color;
+      background: @white;
       position: absolute;
       width: 100%;
       height: 100vh;
@@ -23,8 +23,8 @@
       left: 0;
       top: 0;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      align-items: flex-start;
+      justify-content: flex-start;
     }
   }
 
@@ -32,11 +32,9 @@
     display: none;
     @media(max-width: 900px){
       display: flex;
+      font-size: 2rem;
       margin-left: auto;
       color: @main-color;
-      background: url("../img/toggle-btn.png");
-      width: 20px;
-      height: 20px;
       border: none;
       cursor: pointer;
     }
@@ -58,12 +56,24 @@
       color: @hover-color;
     }
     @media(max-width: 900px){
-      color: @dark;
-      font-size: 2.2rem;
+      color: #3e3e3e;
+      font-size: 1.4rem;
       font-weight: 400;
       margin-left: 0;
-      text-transform: capitalize;
+      margin-bottom: 2.6rem;
+      padding: 0;
+      text-transform: uppercase;
+      &:last-child{
+        border-bottom: 1px solid #c4b8c8;
+        padding-bottom: 3rem;
+      }
     }
+  }
+  &__mobile-links{
+    padding: 0 8%;
+    display: flex;
+    width: calc(100% - 16%);
+    flex-direction: column;
   }
   &__link_share{
     border: none;
@@ -79,12 +89,18 @@
     }
   }
   &__lang{
-    align-self: center;
+    align-self: flex-end;
     display: inline-flex;
-    cursor: pointer;
+    margin-top: 8rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
     &:hover{
       color: @hover-color;
     }
+  }
+  &__link_lang{
+    font-size: 1.2rem;
+    cursor: pointer;
   }
 }
 .nav__link.active{
@@ -123,7 +139,9 @@
   @media(max-width: 900px){
     display: inline-flex;
     position: absolute;
-    right: 2rem;
     top: 2rem;
+    right: 0;
+    left: 0;
+    margin: auto;
   }
 }

@@ -11,7 +11,7 @@
 
 /*
 
-
+//= plugins/jquery.bxslider.js
 
 /*
  * Custom scripts
