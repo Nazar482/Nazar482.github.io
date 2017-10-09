@@ -5,13 +5,14 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 64vh;
-  margin-top: 20rem;
+  margin-top: 12rem;
   margin-bottom: 20rem;
   @media (max-width: 1100px){
     padding-left: 20rem;
   }
   @media(max-width: 900px){
     padding: 0 2rem;
+    margin-top: 20rem;
   }
   @media(max-width: 768px){
     background-position: center center !important;
@@ -27,9 +28,8 @@
       margin-top: 70px;
     }
     height: auto;
-    margin: 0;
     padding: 0;
-    margin-bottom: 4rem;
+    margin: 0 0 4rem 0;
   }
   @media only screen and (max-width: 640px) and (orientation : portrait) {
     background-position: center center;
@@ -89,6 +89,9 @@
       flex-direction: column;
       padding-top: 4rem;
     }
+    @media(max-width: 640px){
+      height: unset;
+    }
   }
   &-first{
     background-image: url(../img/figure-2.png);
@@ -142,6 +145,7 @@
   }
   &-sixth{
     background-image: url(../img/figure-6.png);
+    margin-bottom: 6rem;
 
   }
 

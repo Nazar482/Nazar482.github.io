@@ -2,15 +2,18 @@
   width: 100%;
   //background-color: @background-color;
   z-index: 9999;
-  top: 60px;
-  position: fixed;
+  margin-top: 60px;
+  //position: fixed;
   @media(max-height: 700px){
-    top: 20px;
+    margin-top: 20px;
   }
   @media(max-width: 900px){
+    margin-top: 0;
     top: 0;
-    background: white;
+    background: #fff;
+    -webkit-box-shadow: 0 -3px 7px 0 #6d0387;
     box-shadow: 0 -3px 7px 0 #6d0387;
+    position: fixed;
   }
   &__in{
     max-width: 1100px;
@@ -28,8 +31,11 @@
   }
   &__logo{
     padding-right: 5rem;
+    position: fixed;
+    z-index: 9999;
     @media(max-width: 900px){
       padding: 1rem 0;
+      position: relative;
     }
     @media(max-width: 640px){
       padding: 18px 0 10px 0;
