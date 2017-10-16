@@ -467,15 +467,9 @@
 }
 
 .price-list{
-  display: none;
-  @media(max-width: 640px){
-    display: flex;
-    flex-direction: column;
-    width: 100%;
 
-  }
   &__item{
-    display: none;
+    display: flex;
     width: 100%;
     background: white;
     flex-direction: column;
@@ -568,5 +562,18 @@
   }
   &__controls-link_active{
     background: #d77af1;
+  }
+}
+.hide{
+  display: none;
+}
+.section-info{
+  @media (max-width: 640px){
+   margin-top: 100px !important;
+   padding: 0 2rem;
+ }
+  .section__description{
+    width: 100%;
+    max-width: 100%;
   }
 }

@@ -43,7 +43,7 @@ $(document).ready(function() {
     });
 
     $(".button-submit").click(function(){
-        $(".form__success").fadeIn(1000).delay(3000).fadeOut(1000);
+        $(".form-sent").fadeIn(1000).delay(3000).fadeOut(1000);
         $(".section__main-content").fadeOut().delay(4500).fadeIn(1000);
     })
 
@@ -96,3 +96,7 @@ $(window).scroll(function(){
             .end().filter("[href='#"+id+"']").parent().addClass("active");
     }
 });
+
+$('.carousel').carousel({
+    interval: 2000
+})
