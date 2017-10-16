@@ -12,13 +12,16 @@
 </head>
 <body>
 <div class="loader">
-    <img src="img/logo.png" alt="">
+    <img src="img/pushero-logo.png" alt="">
 </div>
 <div class="wrapper">
     <header class="header">
         <div class="header__in">
             <div class="header__navbar">
-                <div class="header__logo"><a href="/"><img src="img/logo.png" alt=""></a></div>
+                <div class="header__logo">
+                    <a href="/" class="desktop-logo"><img src="img/pushero-logo.png" alt=""></a>
+                    <a href="/" class="mobile-logo"><img src="img/pushero-small.png" alt=""></a>
+                </div>
                 <i class="fa fa-bars nav__toggle-button menu-toggle" aria-hidden="true"></i>
                 <nav class="nav nav-mobile menu">
                     <div class="nav__in mobile-menu">
@@ -33,7 +36,6 @@
                             <a href="#first-section" class="nav__link" data-menuanchor="about">Home</a>
                             <a href="#second-section" class="nav__link" data-menuanchor="services">Features</a>
                             <a href="#third-section" class="nav__link" data-menuanchor="about">What For?</a>
-                            <a href="#fourth-section" class="nav__link" data-menuanchor="services">Partners</a>
                             <a href="#fifth-section" class="nav__link" data-menuanchor="about">Prices</a>
                             <a href="#sixth-section" class="nav__link" data-menuanchor="services">Contact</a>
                         </div>
@@ -57,8 +59,7 @@
                 <div class="nav nav-desktop">
                     <div class="nav__in mobile-menu">
                         <i class="close-menu icon-close-black"></i> <i class="close-menu icon-close-black"></i>
-                        <a href="#" class="nav__link" data-menuanchor="about">Клиентам</a>
-                        <a href="#" class="nav__link" data-menuanchor="services">Партнерам</a>
+                        <a href="#" class="nav__link" data-menuanchor="about"><i class="fa fa-lock"></i>Login</a>
                         <div class="nav__lang">
                             <div class="nav__lang">
                                 <div class="share-block">
@@ -72,6 +73,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <main class="main">
         <div class="section section-info">
