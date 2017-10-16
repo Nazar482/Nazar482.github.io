@@ -1,0 +1,23 @@
+{
+  "name": "ubt-website",
+  "version": "1.0.0",
+  "description": "",
+  "author": "N.Atamaniuk",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "*",
+    "slick": "^1.12.2"
+  },
+  "devDependencies": {
+    "browser-sync": "*",
+    "fullpage.js": "^2.9.4",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-less": "*",
+    "gulp-minify-css": "*",
+    "gulp-rigger": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "slick-carousel": "^1.7.1"
+  }
+}

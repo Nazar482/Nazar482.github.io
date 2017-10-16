@@ -1,0 +1,38 @@
+.loader{
+  width: 100%;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 60px;
+    transform-origin: 0 0;
+    animation: leaves 5s ease-in-out infinite alternate;
+    @media(max-width: 640px){
+      animation: leavesSm 5s ease-in-out infinite alternate;
+    }
+  }
+}
+@keyframes leaves {
+  20% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes leavesSm{
+  20% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
